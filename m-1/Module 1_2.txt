@@ -1,0 +1,15 @@
+Q:1)Write all the vertices in ascending order, which are adjacent to vertex 0 ?
+
+Ans)1, 2, 5, 6
+
+Q:2)Write all the vertices in ascending order, which are adjacent to vertex 7 ?
+
+Ans)8
+
+Q:3)Write all the vertices in ascending order, which are adjacent to vertex 9 ?
+
+Ans)10, 11, 12
+
+Q:4)Write all the vertices in ascending order, which are adjacent to vertex 13 ?
+
+Ans)null

@@ -1,0 +1,49 @@
+Q:) Draw all the non isomorphic graphs with two, three, four, and five vertices.
+
+Ans) 2 vertices:
+
+	A-------B
+	
+	1	2
+
+	Both are non isomorphic graphs.
+
+    3 vertices:
+	
+	A-------B	
+	|	|
+	|	|
+	|	|
+	C-------|
+
+	1-------2
+	
+
+
+	3
+
+    4 vertices:
+
+	A-------B
+	|
+	|
+	C	D
+
+	1-------2
+	|	|
+	|	|
+	3-------4
+
+    5 vertices:
+
+	A	B--------
+	|	|	|
+	|	|	C
+	|	|	|
+	D	E--------
+
+	1-------2--------
+	|		|
+	|		3
+	|		|
+	4-------5--------
