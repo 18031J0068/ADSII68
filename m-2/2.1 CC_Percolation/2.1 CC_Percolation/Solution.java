@@ -13,7 +13,6 @@ public class Solution
 		CC c = new CC(G);
 		
 		c.disp();
-		c.disp1();
 	}
 
 }

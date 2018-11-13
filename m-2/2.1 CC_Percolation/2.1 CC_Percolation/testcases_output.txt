@@ -4,7 +4,6 @@ false
 
 Your Output: 
 true
-true
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -12,7 +11,6 @@ Expected Output:
 false
 
 Your Output: 
-true
 true
 ----------------------------------------
 
@@ -22,15 +20,13 @@ true
 
 Your Output: 
 false
-false
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-false
 false
 ----------------------------------------
 
@@ -39,8 +35,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -49,7 +44,6 @@ false
 
 Your Output: 
 true
-true
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -57,8 +51,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -66,8 +59,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -75,8 +67,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -84,8 +75,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -93,8 +83,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -102,8 +91,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -111,8 +99,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -121,7 +108,6 @@ false
 
 Your Output: 
 true
-true
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -129,8 +115,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -139,7 +124,6 @@ false
 
 Your Output: 
 true
-true
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -147,8 +131,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -156,8 +139,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -165,8 +147,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -174,8 +155,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -183,8 +163,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -192,8 +171,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -201,8 +179,7 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -210,7 +187,6 @@ Expected Output:
 true
 
 Your Output: 
-true
-true
+false
 ----------------------------------------
 

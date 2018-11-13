@@ -7,10 +7,10 @@ class CC
 	
 	CC(Graph G)
 	{
-		marked = new boolean[G.V()];
-        id = new int[G.V()];
-        size = new int[G.V()];
-        for (int v = 0; v < G.V(); v++) 
+		marked = new boolean[G.V()+1];
+        id = new int[G.V()+1];
+        size = new int[G.V()+1];
+        for (int v = 1; v <= G.V(); v++) 
         {
             if (!marked[v]) 
             {
@@ -74,13 +74,5 @@ class CC
 		else
 			System.out.println(true);
 		
-	}
-	
-	void disp1()
-	{
-		if(count != 1)
-			System.out.println(true);
-		else
-			System.out.println(false);
 	}
 }
