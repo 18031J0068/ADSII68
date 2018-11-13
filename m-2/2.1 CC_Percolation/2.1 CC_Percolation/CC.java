@@ -24,6 +24,7 @@ class CC
 	{
 		marked[v] = true;
         id[v] = count;
+        //System.out.println(count);
         size[count]++;
         for (int w : G.adj(v))
         {
@@ -44,7 +45,7 @@ class CC
 	void validateVertex(int v)
 	{
         int V = marked.length;
-        if (v < 0 || v >= V)
+        if (v < 1 || v >= V)
             throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V-1));
     }
 	
@@ -62,14 +63,15 @@ class CC
 	
 	int count() 
 	{
+		//System.out.println("Return count:"+count);
         return count;
     }
 	
 	void disp()
 	{
 		if(count == 1)
-			System.out.println(true);
-		else
 			System.out.println(false);
+		else
+			System.out.println(true);
 	}
 }
