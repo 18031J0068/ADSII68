@@ -144,10 +144,9 @@ interface Graph
      public String toString() 
      {
     	 StringBuilder s = new StringBuilder();
-    	 s.append(V + " vertices, " + E + " edges ");
+    	 s.append(V + " vertices, " + E + " edges \n");
     	 for (int v = 0; v < V; v++)
     	 {
-    	
     		 s.append(b[v] + ": ");
     		 //System.out.println(v);
     		 for (int w : adj[v])
