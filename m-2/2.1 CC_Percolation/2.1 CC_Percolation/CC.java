@@ -70,9 +70,9 @@ class CC
 	void disp()
 	{
 		if(count == 1)
-			System.out.println(false);
-		else
 			System.out.println(true);
+		else
+			System.out.println(false);
 		
 	}
 }
