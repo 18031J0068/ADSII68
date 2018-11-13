@@ -12,7 +12,8 @@ public class Solution
 		Graph G = new Graph(br);
 		CC c = new CC(G);
 		
-		c.disp();		
+		c.disp();
+		c.disp1();
 	}
 
 }

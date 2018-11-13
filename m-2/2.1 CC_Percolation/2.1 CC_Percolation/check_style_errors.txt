@@ -111,11 +111,14 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:72:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:74: 'else' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:76: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:77: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:77:19: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:79: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:78: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:79:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:80:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:81: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:81:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\CC.java:83: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 71 errors.
+Checkstyle ends with 74 errors.
 Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:4: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:5:1: '{' at column 1 should be on the previous line. [LeftCurly]
@@ -147,7 +150,7 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:17:14: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:17:30: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18:13: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18:13: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18:19: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18:20: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:18:22: ';' is not followed by whitespace. [WhitespaceAfter]
@@ -174,7 +177,7 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:36:6: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:36:19: Parameter in should be final. [FinalParameters]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:37:6: '{' at column 6 should be on the previous line. [LeftCurly]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:40:13: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:40:13: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:40:19: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:40:20: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:40:22: ';' is not followed by whitespace. [WhitespaceAfter]
@@ -189,7 +192,7 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:43:29: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:44: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:45: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:45:20: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:45:20: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:47: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:48:23: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:48:24: '=' is not followed by whitespace. [WhitespaceAround]
@@ -203,7 +206,7 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:53:26: Parameter w should be final. [FinalParameters]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:54:6: '{' at column 6 should be on the previous line. [LeftCurly]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55:12: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55:12: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55:16: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55:18: '==' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:55:20: '&&' is not preceded with whitespace. [WhitespaceAround]
@@ -218,7 +221,7 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:64:6: '{' at column 6 should be on the previous line. [LeftCurly]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:65: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:66:10: '{' at column 7 should be on the previous line. [LeftCurly]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:67:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:67:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:67:22: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:67:24: '==' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Graph.java:68:17: '{' at column 10 should be on the previous line. [LeftCurly]
@@ -239,6 +242,5 @@ Starting audit...
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Solution.java:11: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Solution.java:12:23: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\Tanushree\Documents\GitHub\ADSII68\m-2\2.1 CC_Percolation\2.1 CC_Percolation\Solution.java:15: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 12 errors.

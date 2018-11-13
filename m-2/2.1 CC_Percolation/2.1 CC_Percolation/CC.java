@@ -74,6 +74,10 @@ class CC
 		else
 			System.out.println(true);
 		
+	}
+	
+	void disp1()
+	{
 		if(count != 1)
 			System.out.println(true);
 		else
