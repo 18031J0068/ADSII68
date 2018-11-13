@@ -119,41 +119,50 @@ interface Graph
     	 String a=in.readLine();
     	 StringTokenizer st=new StringTokenizer(a,",");
     	 b=new String[st.countTokens()];
-    	 	int j=0;
-    	 	while(st.hasMoreTokens())
-    	 	{
-    	 		b[j++]=st.nextToken();
-    	 		//System.out.println(b[0]+","+b[1]);
-    	 	}
-    	 	for(int i=0;i<E;i++)
-    	 	{
-    	 		String z=in.readLine();
-    	 		String r[]=z.split(" ");
-    	 		int v=Integer.parseInt(r[0]);
-    	 		int w=Integer.parseInt(r[1]);
-    	 		addEddge(v,w);
-    	 	}
+    	 int j=0;
+    	 while(st.hasMoreTokens())
+    	 {
+    	 	b[j++]=st.nextToken();
+    	 	//System.out.println(b[0]+","+b[1]);
+    	 }
+    	 for(int i=0;i<E;i++)
+    	 {
+    	 	String z=in.readLine();
+    	 	String r[]=z.split(" ");
+    	 	int v=Integer.parseInt(r[0]);
+    		int w=Integer.parseInt(r[1]);
+    		addEddge(v,w);
+    	 }
      }
      void addEddge(int v,int w)
      {
-    	 E++;
-    	 adj[v].add(w);
-    	 adj[w].add(v);
+    	 	 E++;
+    		 adj[v].add(w);
+    		 adj[w].add(v); 
      }
      
      public String toString() 
      {
     	 StringBuilder s = new StringBuilder();
-    	 s.append(V + " vertices, " + E + " edges \n");
-    	 for (int v = 0; v < V; v++)
+    	 
+    	 if(E == 0)
     	 {
-    		 s.append(b[v] + ": ");
-    		 //System.out.println(v);
-    		 for (int w : adj[v])
+    		 s.append(V + " vertices, " + E + " edges \n");
+    		 s.append("No edges");
+    	 }
+    	 else
+    	 {
+    		 s.append(V + " vertices, " + E + " edges \n");
+    		 for (int v = 0; v < V; v++)
     		 {
-    			 s.append(b[w] + " ");
+    			 s.append(b[v] + ": ");
+    			 //System.out.println(v);
+    			 for (int w : adj[v])
+    			 {
+    				 s.append(b[w] + " ");
+    			 }
+    			 s.append("\n");
     		 }
-    		 s.append("\n");
     	 }
     	 return s.toString();
      }
@@ -248,8 +257,16 @@ public class Solution
 						int s2=Integer.parseInt(br.readLine());
 		
 						Matrix m1=new Matrix(br,s1,s2);
-						System.out.println(s1+" vertices, "+s2+" edges");
-						m1.display(s1, s2);
+						if(s2 == 0)
+						{
+							System.out.println(s1+" vertices, "+s2+" edges");
+							System.out.println("No edges");
+						}
+						else
+						{
+							System.out.println(s1+" vertices, "+s2+" edges");
+							m1.display(s1, s2);
+						}
 						break; 
 		}
 	}
