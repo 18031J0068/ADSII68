@@ -73,5 +73,10 @@ class CC
 			System.out.println(false);
 		else
 			System.out.println(true);
+		
+		if(count != 1)
+			System.out.println(true);
+		else
+			System.out.println(false);
 	}
 }
