@@ -1,0 +1,56 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+True
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+	at DepthFirstOrder.dfs(DepthFirstOrder.java:28)
+	at DepthFirstOrder.dfs(DepthFirstOrder.java:30)
+	at DepthFirstOrder.dfs(DepthFirstOrder.java:30)
+	at DepthFirstOrder.<init>(DepthFirstOrder.java:17)
+	at Solution.main(Solution.java:13)
+----------------------------------------
+
+########## Testcase 1: Passed ##########
+Expected Output: 
+False
+
+Your Output: 
+False
+----------------------------------------
+
+########## Testcase 2: Passed ##########
+Expected Output: 
+True
+
+Your Output: 
+True
+----------------------------------------
+
+########## Testcase 3: Passed ##########
+Expected Output: 
+True
+
+Your Output: 
+True
+----------------------------------------
+
+########## Testcase 4: Passed ##########
+Expected Output: 
+False
+
+Your Output: 
+False
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+False
+
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+	at DepthFirstOrder.dfs(DepthFirstOrder.java:28)
+	at DepthFirstOrder.<init>(DepthFirstOrder.java:17)
+	at Solution.main(Solution.java:13)
+----------------------------------------
+
