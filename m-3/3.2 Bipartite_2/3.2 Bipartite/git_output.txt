@@ -1,0 +1,78 @@
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/Bag.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/Graph.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/Queue.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/Stack.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input000.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input001.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input002.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input003.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input004.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output000.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output001.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output002.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output003.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output004.txt.
+The file will have its original line endings in your working directory
+[master 45fe076] "ads2_m3_a2_1: 3/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 44 files changed, 402282 insertions(+)
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bag$1.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bag$ListIterator.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bag$Node.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bag.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bag.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bipartite.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bipartite.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Bipartite.pdf
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Graph.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Graph.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Queue.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/README.md
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Solution.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Solution.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Stack$1.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Stack$ListIterator.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Stack$Node.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Stack.class
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/Stack.java
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/check_style_errors.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/git_output.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/input000.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/input001.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/input002.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/input003.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/input004.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/output000.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/output001.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/output002.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/output003.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/output004.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/md5/problem_id.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input000.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input001.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input002.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input003.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/input004.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output000.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output001.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output002.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output003.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/output004.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases/problem_id.txt
+ create mode 100644 m-3/3.2 Bipartite_2/3.2 Bipartite/testcases_output.txt
+remote: Permission to 18031J0068/ADSII68.git denied to TanushreeVedula14.
+fatal: unable to access 'https://github.com/18031J0068/ADSII68.git/': The requested URL returned error: 403

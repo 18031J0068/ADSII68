@@ -1,0 +1,70 @@
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input000.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input001.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input002.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input003.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input004.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input005.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output000.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output001.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output002.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output003.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output004.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output005.txt.
+The file will have its original line endings in your working directory
+[master 4d967c0] "ads2_m3_ba1_1: 4/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 43 files changed, 793 insertions(+)
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Bag$1.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Bag$ListIterator.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Bag$Node.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Bag.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Bag.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/DepthFirstOrder.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/DepthFirstOrder.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Digraph.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Digraph.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/DirectedCycle.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Hamiltonian path.pdf
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Solution.class
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Solution.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/Topological.java
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/check_style_errors.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/git_output.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input000.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input001.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input002.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input003.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input004.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/input005.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output000.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output001.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output002.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output003.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output004.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/output005.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/md5/problem_id.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input000.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input001.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input002.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input003.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input004.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/input005.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output000.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output001.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output002.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output003.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output004.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/output005.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases/problem_id.txt
+ create mode 100644 m-3/Bonus _ Hamilton Path/Bonus _ Hamilton Path/Hamilton Path/testcases_output.txt
+fatal: unable to access 'https://github.com/18031J0068/ADSII68.git/': Could not resolve host: github.com
