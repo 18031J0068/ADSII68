@@ -1,0 +1,18 @@
+Q:)Write true/false, based on the statements for the following statements.
+
+1. A minimum spanning tree (MST) of an edge-weighted graph is a spanning tree whose weight (the sum of the weights of its 
+   edges) is no larger than the weight of any other spanning tree. - True
+
+2. If a graph edges all have distinct weights, the MST is not unique. - False
+
+3. A cut of a graph is a partition of its vertices into two disjoint sets. - True
+
+4. If you can rescale the weights by adding a positive constant to all of them or by multiplying them all by a positive 
+   constant without affecting the MST. - False
+
+5. If a graph's edges all have distinct weights, the MST is not unique. - False
+
+6. Prim's and Kruskal's algorithms work for directed graphs. - False
+
+7. Kruskal's algorithm computes the MST of any connected edge-weighted graph with E edges and Vertices using extra 
+   space proportional to E and time proportional to E log E (in the worst case). - False

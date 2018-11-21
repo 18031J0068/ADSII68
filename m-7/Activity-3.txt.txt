@@ -1,0 +1,19 @@
+void prim(EdgeWeightedGraph G,int s)
+{
+	scan(G,s);
+	while(!pq.isEmpty())
+	{
+		Edge e = ____________;
+		int v = _____________;
+		int w = _____________;
+		assert marked[v] || marked[w];
+		if(marked[v] && marked[w])
+			continue;
+		mst.enqueue(e);
+		weight += _______________;
+		if(!marked[v])
+			scan(G,v);
+		if(!marked[w])
+			scan(G,w);
+	}
+}

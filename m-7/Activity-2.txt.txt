@@ -1,0 +1,26 @@
+public KrushkalMST(EdgeWeightedGraph G)
+{
+	MinPQ<Edge> pq = new MinPQ<Edge>();
+	for(Edge e:G.edges())
+	{
+		______________;
+	}
+	UF uf = new UF(G.V());
+	while(!pq.isEmpty() && mst.size()<G.V()-1)
+	{
+		Edge e = pq.delMin();
+		int v = _______________;
+		int w = _______________;
+		if(!uf.connected(v,w))
+		{
+			________________;
+			mst.enqueue(e);
+			weight += e.weight();
+		}
+	}
+}
+
+Blank 1 = pq.insert(e);
+Blank 2 = e.either();
+Blank 3 = e.other(e);
+Blank 4 = uf.union(v,w); 

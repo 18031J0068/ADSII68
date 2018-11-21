@@ -1,0 +1,14 @@
+public void addEdge(Edge e)
+{
+	int v = _____________;
+	int w = _____________;
+	validateVertex(v);
+	validateVertex(w);
+	adj[v].add(________);
+	adj[w].add(e);
+	E++;
+}
+
+Blank 1 = e.either();
+Blank 2 = e.other(v);
+Blank 3 = e;
