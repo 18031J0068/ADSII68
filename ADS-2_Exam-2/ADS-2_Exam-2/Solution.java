@@ -1,34 +1,176 @@
-public class Solution {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
-	public static void main(String[] args) {
-		// Self loops are not allowed...
-		// Parallel Edges are allowed...
-		// Take the Graph input here...
+class Solution 
+{
+    class Node implements Comparable<Node> 
+    {
+        int vertice;
+        int weight;
 
-		String caseToGo = null;
-		switch (caseToGo) {
-		case "Graph":
-			//Print the Graph Object.
-			break;
+        Node(int vertice, int weight) 
+        {
+            this.vertice = vertice;
+            this.weight = weight;
+        }
 
-		case "DirectedPaths":
-			// Handle the case of DirectedPaths, where two integers are given.
-			// First is the source and second is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
-			break;
+        @Override
+        public int compareTo(Node o)
+        {
+            return this.weight - o.weight;
+        }
+    }
 
-		case "ViaPaths":
-			// Handle the case of ViaPaths, where three integers are given.
-			// First is the source and second is the via is the one where path should pass throuh.
-			// third is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
-			break;
+    public class AdjList 
+    {
+        ArrayList<Node> nodes;
+    }
 
-		default:
-			break;
-		}
+    public class Graph 
+    {
+        int V;
+        AdjList[] adjLists;
+    }
 
-	}
+
+    Graph createGraph(int v) 
+    {
+        Graph graph = new Graph();
+        graph.V = v;
+        graph.adjLists = new AdjList[v];
+        
+        for (int i = 0; i < v; i++) 
+        {
+            AdjList adjList = new AdjList();
+            adjList.nodes = new ArrayList<Node>(); 
+            graph.adjLists[i] = adjList;
+        }
+        return graph;
+    }
+
+    void addEdge(Graph graph, int src, int dest, int weight) 
+    {
+        Node srcNode = new Node(src, weight);
+        Node destNode = new Node(dest, weight);
+        
+        graph.adjLists[src].nodes.add(destNode);
+        graph.adjLists[dest].nodes.add(srcNode);
+    }
+
+    void printGraph(Graph graph,int v,int e)
+    {
+    	System.out.println(v+" vertices "+e+" edges");
+        for (int i = 0; i < graph.V; i++)
+        {
+            System.out.print(i + ": ");
+            for (Node n : graph.adjLists[i].nodes) 
+            {
+                System.out.print(" "+i+"-"+n.vertice+" "+n.weight+".00000");
+            }
+            System.out.println();
+        }
+    }
+
+    void getPrims(Graph graph) 
+    {
+        Node weight[] = new Node[graph.V];
+        int parent[] = new int[graph.V];
+        boolean mstSet[] = new boolean[graph.V];
+
+        for (int i = 0; i < graph.V; i++) {
+        	weight[i] = new Node(i, Integer.MAX_VALUE);
+            parent[i] = -1;
+            mstSet[i] = false;
+        }
+        
+        weight[0].weight = 0;
+        Queue<Node> q = new PriorityQueue<>();
+        q.addAll(Arrays.asList(weight));
+        int sum = 0;
+        
+        while (q.size() > 1) 
+        {
+        	
+            Node u = q.remove();
+           
+            mstSet[u.vertice] = true;
+            
+            for (Node n : graph.adjLists[u.vertice].nodes)
+            {
+            	
+                if (mstSet[n.vertice] == false && n.weight < weight[n.vertice].weight) 
+                {
+                	
+                	q.remove(weight[n.vertice]); 
+                    weight[n.vertice].weight = n.weight;
+                    
+                    sum = sum + weight[n.vertice].weight;
+                    
+                    parent[n.vertice] = u.vertice;
+                    q.add(weight[n.vertice]);
+                   
+                 }
+         
+
+            }
+            
+        }
+        print_mst(weight,parent,graph,sum);
+
+    }
+    void directedPath(Graph g,int src,int dest)
+    {
+    	getPrims(g);
+    }
+    public void print_mst(Node[] weight,int[] parent,Graph g,int sum) 
+    {
+        System.out.println(sum);
+    }
+
+    public static void main(String[] args) throws NumberFormatException, IOException 
+    {
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	
+        int V = Integer.parseInt(br.readLine());
+        
+        Solution p = new Solution();
+        Graph g = p.createGraph(V);
+        
+        int e = Integer.parseInt(br.readLine());
+        int weight;
+        
+        for(int i = 0;i < e;i++)
+        {
+        	String edge = br.readLine();
+        	String[] edge1 = edge.split(" ");
+        	int to = Integer.parseInt(edge1[0]);
+        	int from = Integer.parseInt(edge1[1]);
+        	weight = Integer.parseInt(edge1[2]); 
+        	p.addEdge(g, to, from, weight);
+        }
+        
+        String ch = br.readLine();
+        
+        switch(ch)
+        {
+        	case "Graph" 		: 	p.printGraph(g,V,e);
+        							System.out.println();
+        							p.getPrims(g);
+        							break;
+        							
+        	case "DirectedPaths" :	String srde = br.readLine();
+        							String[] srde1 = srde.split(" ");
+        							int src = Integer.parseInt(srde1[0]);
+        							int dest = Integer.parseInt(srde1[1]);
+        							p.directedPath(g, src, dest);
+        							break;
+        }
+        
+
+    }
 }
