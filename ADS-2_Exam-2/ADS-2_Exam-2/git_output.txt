@@ -1,0 +1,9 @@
+[master 8f2d77b] "ads2_m12_a1_1: 0/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 7 files changed, 358 insertions(+), 56 deletions(-)
+ rewrite ADS-2_Exam-2/ADS-2_Exam-2/Solution$AdjList.class (84%)
+ rewrite ADS-2_Exam-2/ADS-2_Exam-2/Solution$Graph.class (96%)
+ rewrite ADS-2_Exam-2/ADS-2_Exam-2/Solution$Node.class (78%)
+ rewrite ADS-2_Exam-2/ADS-2_Exam-2/Solution.class (100%)
+ rewrite ADS-2_Exam-2/ADS-2_Exam-2/Solution.java (99%)
+remote: Permission to 18031J0068/ADSII68.git denied to TanushreeVedula14.
+fatal: unable to access 'https://github.com/18031J0068/ADSII68.git/': The requested URL returned error: 403
